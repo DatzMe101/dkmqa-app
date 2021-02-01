@@ -1,0 +1,18 @@
+.app-admin {
+  nz-header {
+    background: #fff;
+    padding: 0;
+  }
+  .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  .trigger-container {
+    padding: 0 20px;
+    .trigger {
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

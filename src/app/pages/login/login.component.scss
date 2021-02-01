@@ -1,0 +1,23 @@
+.app-login {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  &__container {
+    width: 25em;
+  }
+  .form-input {
+    padding: 0.8em;
+  }
+  .login-button {
+    height: 3.5em;
+  }
+  .error-message {
+    margin-top: 1em;
+  }
+}

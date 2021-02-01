@@ -1,0 +1,49 @@
+.client-home {
+  padding: 20px;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .model-container {
+    background-color: white;
+    box-shadow: 0px 0px 19px -8px rgba(#000000, 0.3);
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    .model-image-container {
+      .model-image {
+        width: 100%;
+      }
+      .default-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #bbbbbd;
+        border-radius: 5px;
+        height: 100%;
+      }
+    }
+    .form {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      &-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        label {
+          font-size: 1.4rem;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .ant-btn-group {
+    button.ant-btn {
+      min-width: 100px;
+    }
+  }
+}

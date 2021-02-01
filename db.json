@@ -1,0 +1,716 @@
+{
+  "languages": [
+    {
+      "id": 1,
+      "countryCode": "us",
+      "languageCode": "en",
+      "name": "English"
+    },
+    {
+      "id": 2,
+      "countryCode": "es",
+      "languageCode": "es",
+      "name": "Spanish"
+    },
+    {
+      "id": 3,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "name": "Japanese"
+    },
+    {
+      "id": 4,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "name": "Tagalog"
+    }
+  ],
+  "labels": [
+    {
+      "id": 1,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-2",
+      "key": "password",
+      "name": "Password",
+      "value": "Passcode"
+    },
+    {
+      "id": 2,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-1",
+      "key": "username",
+      "name": "Username",
+      "value": "User ID"
+    },
+    {
+      "id": 3,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-3",
+      "key": "language-label",
+      "name": "Language",
+      "value": "Language"
+    },
+    {
+      "id": 4,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-5",
+      "key": "login",
+      "name": "Login",
+      "value": "Login"
+    },
+    {
+      "id": 5,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-1",
+      "key": "home",
+      "name": "Home",
+      "value": "Home"
+    },
+    {
+      "id": 6,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-2",
+      "key": "inspection",
+      "name": "Inspection",
+      "value": "Inspection"
+    },
+    {
+      "id": 7,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-3",
+      "key": "back",
+      "name": "Back",
+      "value": "Back"
+    },
+    {
+      "id": 8,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-4",
+      "key": "next",
+      "name": "Next",
+      "value": "Next"
+    },
+    {
+      "id": 9,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-1",
+      "key": "work-group",
+      "name": "Work Group",
+      "value": "Work Group"
+    },
+    {
+      "id": 10,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-2",
+      "key": "model",
+      "name": "Model",
+      "value": "Model"
+    },
+    {
+      "id": 11,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-3",
+      "key": "quantity",
+      "name": "Qty",
+      "value": "Qty"
+    },
+    {
+      "id": 12,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-4",
+      "key": "shift-hour",
+      "name": "Shift Hour",
+      "value": "Shift Hour"
+    },
+    {
+      "id": 13,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-5",
+      "key": "group",
+      "name": "Group",
+      "value": "Group"
+    },
+    {
+      "id": 14,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-6",
+      "key": "line",
+      "name": "Line",
+      "value": "Line"
+    },
+    {
+      "id": 15,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-7",
+      "key": "cell",
+      "name": "Cell",
+      "value": "Cell"
+    },
+    {
+      "id": 16,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-8",
+      "key": "sequence",
+      "name": "Sequence",
+      "value": "Sequence"
+    },
+    {
+      "id": 17,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-2",
+      "key": "password",
+      "name": "Password",
+      "value": "Contraseña"
+    },
+    {
+      "id": 18,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-1",
+      "key": "username",
+      "name": "Username",
+      "value": "ID de usuario"
+    },
+    {
+      "id": 19,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-3",
+      "key": "language-label",
+      "name": "Language",
+      "value": "Idioma"
+    },
+    {
+      "id": 20,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-5",
+      "key": "login",
+      "name": "Login",
+      "value": "Iniciar sesión"
+    },
+    {
+      "id": 21,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-1",
+      "key": "home",
+      "name": "Home",
+      "value": "Casa"
+    },
+    {
+      "id": 22,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-2",
+      "key": "inspection",
+      "name": "Inspection",
+      "value": "Inspección"
+    },
+    {
+      "id": 23,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-3",
+      "key": "back",
+      "name": "Back",
+      "value": "Atrás"
+    },
+    {
+      "id": 24,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-4",
+      "key": "next",
+      "name": "Next",
+      "value": "Entrante"
+    },
+    {
+      "id": 25,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-1",
+      "key": "work-group",
+      "name": "Work Group",
+      "value": "Grupo de trabajo"
+    },
+    {
+      "id": 26,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-2",
+      "key": "model",
+      "name": "Model",
+      "value": "Modelo"
+    },
+    {
+      "id": 27,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-3",
+      "key": "quantity",
+      "name": "Qty",
+      "value": "Cantidad"
+    },
+    {
+      "id": 28,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-4",
+      "key": "shift-hour",
+      "name": "Shift Hour",
+      "value": "Hora de turno"
+    },
+    {
+      "id": 29,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-5",
+      "key": "group",
+      "name": "Group",
+      "value": "Grupo"
+    },
+    {
+      "id": 30,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-6",
+      "key": "line",
+      "name": "Line",
+      "value": "Línea"
+    },
+    {
+      "id": 31,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-7",
+      "key": "cell",
+      "name": "Cell",
+      "value": "Celda"
+    },
+    {
+      "id": 32,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-8",
+      "key": "sequence",
+      "name": "Sequence",
+      "value": "Secuencia"
+    },
+    {
+      "id": 33,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-2",
+      "key": "password",
+      "name": "Password",
+      "value": "パスコード"
+    },
+    {
+      "id": 34,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-1",
+      "key": "username",
+      "name": "Username",
+      "value": "ユーザーID"
+    },
+    {
+      "id": 35,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-3",
+      "key": "language-label",
+      "name": "Language",
+      "value": "言語"
+    },
+    {
+      "id": 36,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-5",
+      "key": "login",
+      "name": "Login",
+      "value": "ログインする"
+    },
+    {
+      "id": 37,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-1",
+      "key": "home",
+      "name": "Home",
+      "value": "ホーム"
+    },
+    {
+      "id": 38,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-2",
+      "key": "inspection",
+      "name": "Inspection",
+      "value": "検査"
+    },
+    {
+      "id": 39,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-3",
+      "key": "back",
+      "name": "Back",
+      "value": "バック"
+    },
+    {
+      "id": 40,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-4",
+      "key": "next",
+      "name": "Next",
+      "value": "次"
+    },
+    {
+      "id": 41,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-1",
+      "key": "work-group",
+      "name": "Work Group",
+      "value": "ワークグループ"
+    },
+    {
+      "id": 42,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-2",
+      "key": "model",
+      "name": "Model",
+      "value": "モデル"
+    },
+    {
+      "id": 43,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-3",
+      "key": "quantity",
+      "name": "Qty",
+      "value": "量"
+    },
+    {
+      "id": 44,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-4",
+      "key": "shift-hour",
+      "name": "Shift Hour",
+      "value": "シフトアワー"
+    },
+    {
+      "id": 45,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-5",
+      "key": "group",
+      "name": "Group",
+      "value": "グループ"
+    },
+    {
+      "id": 46,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-6",
+      "key": "line",
+      "name": "Line",
+      "value": "ライン"
+    },
+    {
+      "id": 47,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-7",
+      "key": "cell",
+      "name": "Cell",
+      "value": "細胞"
+    },
+    {
+      "id": 48,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-8",
+      "key": "sequence",
+      "name": "Sequence",
+      "value": "シーケンス"
+    },
+    {
+      "id": 49,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-2",
+      "key": "password",
+      "name": "Password",
+      "value": "Passcode"
+    },
+    {
+      "id": 50,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-1",
+      "key": "username",
+      "name": "Username",
+      "value": "User ID"
+    },
+    {
+      "id": 51,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-3",
+      "key": "language-label",
+      "name": "Language",
+      "value": "Wika"
+    },
+    {
+      "id": 52,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "login",
+      "gridLocation": "login-grid-5",
+      "key": "login",
+      "name": "Login",
+      "value": "Mag log in"
+    },
+    {
+      "id": 53,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-1",
+      "key": "home",
+      "name": "Home",
+      "value": "Bahay"
+    },
+    {
+      "id": 54,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-2",
+      "key": "inspection",
+      "name": "Inspection",
+      "value": "Inspeksyon"
+    },
+    {
+      "id": 55,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-3",
+      "key": "back",
+      "name": "Back",
+      "value": "Bumalik"
+    },
+    {
+      "id": 56,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "breadcrumb",
+      "gridLocation": "breadcrumb-grid-4",
+      "key": "next",
+      "name": "Next",
+      "value": "Sunod"
+    },
+    {
+      "id": 57,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-1",
+      "key": "work-group",
+      "name": "Work Group",
+      "value": "Pangkat ng Trabaho"
+    },
+    {
+      "id": 58,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-2",
+      "key": "model",
+      "name": "Model",
+      "value": "Modelo"
+    },
+    {
+      "id": 59,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-3",
+      "key": "quantity",
+      "name": "Qty",
+      "value": "Dami"
+    },
+    {
+      "id": 60,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-4",
+      "key": "shift-hour",
+      "name": "Shift Hour",
+      "value": "Oras ng Paglilipat"
+    },
+    {
+      "id": 61,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-5",
+      "key": "group",
+      "name": "Group",
+      "value": "Pangkat"
+    },
+    {
+      "id": 62,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-6",
+      "key": "line",
+      "name": "Line",
+      "value": "Linya"
+    },
+    {
+      "id": 63,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-7",
+      "key": "cell",
+      "name": "Cell",
+      "value": "Cell"
+    },
+    {
+      "id": 64,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "inspection",
+      "gridLocation": "inspection-grid-8",
+      "key": "sequence",
+      "name": "Sequence",
+      "value": "Pagkakasunud-sunod"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "countryCode": "us",
+      "languageCode": "en",
+      "sectionCode": "home",
+      "messageId": "0201",
+      "key": "login-notification",
+      "name": "Login Notification",
+      "messageType": "I",
+      "value": "You are using English as system language."
+    },
+    {
+      "id": 2,
+      "countryCode": "es",
+      "languageCode": "es",
+      "sectionCode": "home",
+      "messageId": "0201",
+      "key": "login-notification",
+      "name": "Login Notification",
+      "messageType": "I",
+      "value": "Está utilizando el español como idioma del sistema."
+    },
+    {
+      "id": 3,
+      "countryCode": "jp",
+      "languageCode": "ja",
+      "sectionCode": "home",
+      "messageId": "0201",
+      "key": "login-notification",
+      "name": "Login Notification",
+      "messageType": "I",
+      "value": "システム言語として日本語を使用しています。"
+    },
+    {
+      "id": 4,
+      "countryCode": "ph",
+      "languageCode": "tl",
+      "sectionCode": "home",
+      "messageId": "0201",
+      "key": "login-notification",
+      "name": "Login Notification",
+      "messageType": "I",
+      "value": "Gumagamit ka ng Tagalog bilang wika ng system."
+    }
+  ]
+}

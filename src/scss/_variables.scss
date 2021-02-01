@@ -1,0 +1,25 @@
+$screen-phone-min: 32em !default;
+$screen-xs-min: 48em !default;
+$screen-sm-min: 76.8em !default;
+$screen-md-min: 99.2em !default;
+$screen-lg-min: 120em !default;
+$screen-custom-773: 773px !default;
+$screen-custom-600: 600px !default;
+$screen-phone-max: ($screen-xs-min - 1) !default;
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+$default-font-size: 1.2em;
+
+//Colors
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+$black: #000;
+$success: green;
+$warning: #feb818;
+$danger: #ff4d4f;

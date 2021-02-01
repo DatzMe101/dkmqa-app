@@ -1,0 +1,30 @@
+@import "variables";
+
+@mixin app-responsive($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: $screen-phone-max) {
+      @content;
+    }
+  }
+  @if $breakpoint == xs {
+    @media (max-width: $screen-xs-max) {
+      @content;
+    }
+  }
+  @if $breakpoint == sm {
+    @media (max-width: $screen-sm-max) {
+      @content;
+    }
+  }
+  @if $breakpoint == md {
+    @media (max-width: $screen-md-max) {
+      @content;
+    }
+  }
+}
+
+@mixin app-custom-responsive($screen-size) {
+  @media (max-width: $screen-size) {
+    @content;
+  }
+}
